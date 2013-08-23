@@ -80,7 +80,7 @@ info.
 * to run do one of:
   * open `http://localhost:port/test/e2e/runner.html` in your browser
   * run the tests from console with [Karma](http://karma-runner.github.io) via
-    `scripts/e2e-test.sh` or `script/e2e-test.bat` (need to install `npm install karma-ng-scenario`)
+    `scripts/e2e-test.sh` or `script/e2e-test.bat` (need to install `npm install karma-ng-scenario`).
 
 ### Continuous Integration
 
