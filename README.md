@@ -29,7 +29,7 @@ Clone the angular-seed repository and start hacking...
 You can pick one of these options:
 
 * serve this repository with your webserver
-* install node.js and run `scripts/web-server.js`
+* install node.js and run `node scripts/web-server.js`
 
 Then navigate your browser to `http://localhost:<port>/app/index.html` to see the app running in
 your browser.
@@ -56,7 +56,7 @@ We recommend using [jasmine](http://pivotal.github.com/jasmine/) and
 [Karma](http://karma-runner.github.io) for your unit tests/specs, but you are free
 to use whatever works for you.
 
-Requires [node.js](http://nodejs.org/), Karma (`sudo npm install -g karma`) and a local
+Requires [node.js](http://nodejs.org/), Karma (`sudo npm install -g karma` on mac, on windows take out `sudo`) and a local
 or remote browser.
 
 * start `scripts/test.sh` (on windows: `scripts\test.bat`)
@@ -80,7 +80,7 @@ info.
 * to run do one of:
   * open `http://localhost:port/test/e2e/runner.html` in your browser
   * run the tests from console with [Karma](http://karma-runner.github.io) via
-    `scripts/e2e-test.sh` or `script/e2e-test.bat`
+    `scripts/e2e-test.sh` or `script/e2e-test.bat` (need to install `npm install karma-ng-scenario`)
 
 ### Continuous Integration
 

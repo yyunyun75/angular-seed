@@ -59,5 +59,11 @@ sftp-config.json
 ######################
 *.sass-cache*
 
+# Node module files  #
+######################
+scripts/node_modules/
+
+# Original Settings  #
+######################
 logs/*
 !.gitkeep
