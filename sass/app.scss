@@ -1,3 +1,4 @@
+@import "compass/css3";
 /* app css stylesheet */
 
 body{
@@ -19,6 +20,7 @@ body{
 
   .menu > li {
     display: inline;
+    background: linear-gradient(color-stops(#f7f7f7, #f0f0f0 60%, #cecece 99%)); 
   }
 
   .menu > li:before {
