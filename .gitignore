@@ -61,9 +61,13 @@ sftp-config.json
 
 # Node module files  #
 ######################
-scripts/node_modules/
+/node_modules/
 
 # Original Settings  #
 ######################
 logs/*
 !.gitkeep
+
+# Bower Components   #
+######################
+/bower_components/
