@@ -1,3 +1,10 @@
+#added changes are:
+* Updated syntax for Karma config file
+* added support for grunt, files added are: package.json, Gruntfile.js. To use grunt properly, run "npm install" first, which install all the packages specified in package.json. 
+* To run unit test, run "grunt test:unit", "grunt test:e2e" runs the end to end test. "grunt test:unit watch", will trigger the watch service, if files in app/js/ or test/unit/ changes, it will trigger the karma unit test. "grunt test:continuous" is a tasked used for production deployment, it runs the test in headless browser.
+* To concat files in src (planned for non-angular js files) and saved as main.js you can run "grunt minify", just a test for grunt clean and grunt concat functionality. 
+* You can also run "npm start" to start the web server
+
 # angular-seed — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.

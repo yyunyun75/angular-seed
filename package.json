@@ -1,0 +1,35 @@
+{
+  "name": "leslie-angular-seed",
+  "version": "0.1.0",
+  "description": "leslie lee update angular-seed project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start config/karma.conf.js",
+    "start": "node scripts/web-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yyunyun75/angular-seed.git"
+  },
+  "keywords": [
+    "angular-seed",
+    "grunt",
+    "karma",
+    "bootstrap"
+  ],
+  "author": "leslie lee",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "7c47f2a96a9653a9219e1c142b8527c34d355f09",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-karma": "~0.6.2",
+    "jasmine-node": "~1.11.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
