@@ -18,63 +18,30 @@ body .menu > li:nth-child(1):before {
   content: "";
   padding: 0; }
 
-/* app utility related css, e.g. icons */
-.icons-sprite, .icons-bigger, .icons-biggerSel, .icons-email, .icons-facebook, .icons-left, .icons-leftSolid, .icons-minus, .icons-minusBlack, .icons-noline, .icons-plus, .icons-plusBlack, .icons-reset, .icons-right, .icons-rightSolid, .icons-smaller, .icons-smallerSel, .icons-twitter, .icons-underline, .icons-zoom {
-  background: url('../img/icons-sf6d7fb1a43.png') no-repeat; }
-
-.icons-bigger {
-  background-position: 0 -121px; }
-
-.icons-biggerSel {
-  background-position: 0 -132px; }
-
-.icons-email {
-  background-position: 0 -44px; }
-
-.icons-facebook {
-  background-position: 0 0; }
+/* app utility related css (icons) */
+.icons-sprite, .icons-left, .icons-minus, .icons-minusBlack, .icons-plus, .icons-plusBlack, .icons-reset, .icons-right, .icons-zoom {
+  background: url('../img/icons-s7474fc3d10.png') no-repeat; }
 
 .icons-left {
-  background-position: 0 -97px; }
-
-.icons-leftSolid {
-  background-position: 0 -196px; }
+  background-position: 0 -31px; }
 
 .icons-minus {
-  background-position: 0 -223px; }
+  background-position: 0 -97px; }
 
 .icons-minusBlack {
-  background-position: 0 -182px; }
-
-.icons-noline {
-  background-position: 0 -255px; }
-
-.icons-plus {
-  background-position: 0 -168px; }
-
-.icons-plusBlack {
-  background-position: 0 -154px; }
-
-.icons-reset {
   background-position: 0 -83px; }
 
+.icons-plus {
+  background-position: 0 -69px; }
+
+.icons-plusBlack {
+  background-position: 0 -55px; }
+
+.icons-reset {
+  background-position: 0 -17px; }
+
 .icons-right {
-  background-position: 0 -109px; }
-
-.icons-rightSolid {
-  background-position: 0 -204px; }
-
-.icons-smaller {
-  background-position: 0 -143px; }
-
-.icons-smallerSel {
-  background-position: 0 -212px; }
-
-.icons-twitter {
-  background-position: 0 -22px; }
-
-.icons-underline {
-  background-position: 0 -237px; }
+  background-position: 0 -43px; }
 
 .icons-zoom {
-  background-position: 0 -66px; }
+  background-position: 0 0; }
