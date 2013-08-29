@@ -1,5 +1,6 @@
 @import "compass/css3";
-/* app css stylesheet */
+
+/* app stylesheet */
 
 body{
   
@@ -34,3 +35,7 @@ body{
   }
 
 }
+
+/* app utility related css, e.g. icons */
+
+@import "util";
