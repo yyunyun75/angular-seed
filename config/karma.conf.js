@@ -18,7 +18,7 @@ module.exports = function(config){
 		browsers: ['Chrome'],
 
 		junitReporter: {
-		  outputFile: 'test_out/unit.xml',
+		  outputFile: 'test/_out/unit.xml',
 		  suite: 'unit'
 		}
 

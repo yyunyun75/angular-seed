@@ -1,0 +1,19 @@
+<plugin>
+  <groupId>angularseed</groupId>
+  <artifactId>maven-karma-plugin</artifactId>
+  <version>1.3</version>
+  <configuration>
+    <configFile>${basedir}/config/karma.conf.js</configFile>
+    <browsers>PhantomJS</browsers>
+  </configuration>
+  <executions>
+    <execution>
+      <id>karma</id>
+      <goals>
+        <goal>start</goal>
+      </goals>
+      <!-- execute karma before test phase to let Jenkins collect the target/surefire-reports/karmaUnit.xml -->
+      <phase>process-test-classes</phase>
+    </execution>
+  </executions>
+</plugin>
