@@ -31,6 +31,7 @@
     "grunt-karma": "~0.6.2",
     "karma-ng-scenario": "~0.1.0",
     "jasmine-node": "~1.11.0",
-    "grunt-contrib-watch": "~0.5.3"
+    "grunt-contrib-watch": "~0.5.3",
+    "phantomjs": "~1.9.2-0"
   }
 }
