@@ -48,7 +48,7 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
 	// Default task(s)
-	// Run grunt test:unit watch, will watch the file change
+	// Run grunt test:unit watch, will watch the file change.
 	grunt.registerTask('minify', ['clean', 'concat']);
 	grunt.registerTask('test:unit', 'Run unit test with Karma', ['karma:unit']);
 	grunt.registerTask('test:e2e', 'Run end to end test with Karma', ['karma:e2e'])
