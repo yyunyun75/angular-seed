@@ -15,6 +15,8 @@ module.exports = function(config){
 
 		autoWatch: true,
 
+		singleRun: true,
+
 		browsers: ['Chrome'],
 
 		junitReporter: {
