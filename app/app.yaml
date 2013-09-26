@@ -1,0 +1,35 @@
+application: p1-bcstudio
+version: html5
+runtime: python27
+api_version: 1
+threadsafe: false
+
+handlers:
+
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /(.*\.(html|swf|gif|png|jpg|jpeg|ico|js|otf|eot|woff|ttf|css))
+  static_files: \1
+  upload: (.*\.(html|swf|gif|png|jpg|jpeg|ico|js|otf|eot|woff|ttf|css))
+
+- url: .*
+  script: main.app  
+
+libraries:
+- name: PIL
+  version: "1.1.7"
+- name: webapp2
+  version: "2.5.2"
+- name: jinja2
+  version: "2.6"
+
+
+skip_files:
+- ^(.*/)?#.*#
+- ^(.*/)?.*~
+- ^(.*/)?.*\.py[co]
+- ^(.*/)?.*/RCS/.*
+- ^(.*/)?\..*
+- ^node_modules/(.*/)*
